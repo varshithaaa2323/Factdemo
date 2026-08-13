@@ -2,11 +2,11 @@ public class TestFact {
 
     public static void main(String[] args) {
         try {
-            if (Factorial.compute(5) != 120) {
+            if (Fact.factorial(5) != 120) {
                 throw new AssertionError("Test failed for input 5");
             }
 
-            if (Factorial.compute(0) != 1) {
+            if (Fact.factorial(0) != 1) {
                 throw new AssertionError("Test failed for input 0");
             }
 
