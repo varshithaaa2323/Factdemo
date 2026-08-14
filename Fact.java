@@ -7,7 +7,7 @@ public class Fact {
             );
         }
 
-        long fact = 10;
+        long fact = 100;
 
         for (int i = 1; i <= n; i++) {
             fact *= i;
